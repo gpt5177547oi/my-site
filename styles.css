@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    font-family: 'Kaisei Tokumin', serif;
+    background-color: #982222;
+    color: white;
+}
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Заголовок сверху */
+h1 {
+    font-size: 64px;
+    color: transparent;
+    -webkit-text-stroke: 2px white;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Контент: фото слева, текст справа */
+.content {
+    display: flex;
+    width: 100%;
+    gap: 40px;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.photo {
+    width: 400px; /* регулируй размер */
+    height: auto;
+    object-fit: cover;
+}
+
+/* Квадрат с текстом */
+.info-box {
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 38px;
+    padding: 30px;
+    width: 900px;
+    height: 400px;
+
+}
+
+.info-box p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 0;
+
+
+}
+
+/* Кнопки снизу */
+.buttons {
+    display: flex;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.btn {
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    transition: transform 0.2s;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+/* Стиль отдельных кнопок */
+.tiktok {
+    background-color: black;
+}
+
+.instagram {
+    background: linear-gradient(90deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+}
+
+.about {
+    background-color: black;
+}
